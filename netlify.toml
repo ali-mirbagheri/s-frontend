@@ -1,7 +1,7 @@
 [build]
-command = "npm ci && npm run build"
+base = ""
+command = "corepack enable && pnpm install && pnpm build"
 publish = "dist"
 
 [build.environment]
 NODE_VERSION = "20.19.0"
-NPM_FLAGS = "--force"

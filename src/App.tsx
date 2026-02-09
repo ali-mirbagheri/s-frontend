@@ -75,10 +75,10 @@ export default function App() {
           <img
             src={
               accepted
-                ? "../public/sorry.png"
+                ? "/sorry.png"
                 : isYesHover
-                  ? "../public/happy-minion.png"
-                  : "../public/sad_minion.png"
+                  ? "/happy-minion.png"
+                  : "/sad_minion.png"
             }
             className="image"
           />
